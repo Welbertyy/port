@@ -140,7 +140,7 @@ span {
 
 .home-img img {
   position: relative;
-  width: 23vw;
+  width: 20vw;
   border-radius: 50%;
   box-shadow: 0 0 25px solid #b74b4b;
   cursor: pointer;
@@ -264,7 +264,7 @@ span {
   }
 
   .home-img img {
-    width: 70vw;
+    width: 60vw;
     margin-top: 4rem;
   }
 }
