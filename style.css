@@ -37,14 +37,14 @@ header {
 }
 .logo {
   font-size: 3rem;
-  color: #33102a;
+  color: #ffffff;
   font-weight: 800;
   cursor: pointer;
   transition: 0.5s;
 }
 
 .logo:hover {
-  transform: scale(1);
+  color: #b74b4b;
 }
 
 nav a {
@@ -261,6 +261,6 @@ span {
 
   .home-img img {
     width: 60vw;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }
