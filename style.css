@@ -287,11 +287,11 @@ span {
 }
 
 #transparency-icon:hover {
-  background-color: #f0f0f0;
+  background-color: #ffffff00;
   color: #ff9900;
 }
 
 body.transparent {
-  opacity: 0.5; /* Define a transparência da página */
+  opacity: 0.2; /* Define a transparência da página */
   transition: opacity 0.3s;
 }
