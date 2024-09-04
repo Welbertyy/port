@@ -264,3 +264,34 @@ span {
     margin-top: 2rem;
   }
 }
+
+/* Outras regras de CSS já fornecidas anteriormente */
+
+#transparency-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.918);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1000; /* Fica acima de todos os outros elementos */
+}
+
+#transparency-icon:hover {
+  background-color: #f0f0f0;
+  color: #ff9900;
+}
+
+body.transparent {
+  opacity: 0.5; /* Define a transparência da página */
+  transition: opacity 0.3s;
+}

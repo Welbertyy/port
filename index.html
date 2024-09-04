@@ -52,5 +52,26 @@
         >
       </div>
     </section>
+
+    <!-- Icone para aumentar a transparência -->
+    <div id="transparency-icon" title="Aumentar Transparência">
+      <i class="fa-solid fa-moon"></i>
+    </div>
+
+    <!-- Overlay -->
+    <div id="overlay"></div>
+
+    <script>
+      // Função para aumentar a transparência
+      function toggleTransparency() {
+        const body = document.body;
+        body.classList.toggle("transparent");
+      }
+
+      // Adiciona o evento de clique no ícone
+      document
+        .getElementById("transparency-icon")
+        .addEventListener("click", toggleTransparency);
+    </script>
   </body>
 </html>
