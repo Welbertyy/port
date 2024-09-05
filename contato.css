@@ -1,9 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
 /* Reset e configurações globais */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -43,6 +49,7 @@ header {
 }
 
 nav a {
+  gap: 4rem;
   font-size: 1.8rem;
   color: white;
   margin-left: 4rem;
@@ -195,4 +202,33 @@ button:hover {
   button {
     font-size: 1.2rem;
   }
+}
+
+#transparency-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.918);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1000; /* Fica acima de todos os outros elementos */
+}
+
+#transparency-icon:hover {
+  background-color: #ffffff;
+  color: #ff9900;
+}
+
+body.transparent {
+  opacity: 0.2; /* Define a transparência da página */
+  transition: opacity 0.3s;
 }
